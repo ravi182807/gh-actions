@@ -1,0 +1,10 @@
+name: Workflow
+on: workflow_dispatch
+jobs:
+  basic-job:
+    runs-on: macos-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello World!"
+      -  name: Pring goodbye
+         run: echo "Done - bye"
